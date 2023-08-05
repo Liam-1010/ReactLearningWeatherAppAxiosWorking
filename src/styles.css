@@ -1,0 +1,127 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/444/original/daysky.png?1683215804);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+h1 {
+  color: #2f3c4f;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  color: #2f3c4f;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.col-6 ul {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid #0a2a5bb1;
+  border-radius: 5px;
+  background: linear-gradient(to right, #f5efdefe 0%, #53a5e4 100%);
+}
+
+.weather-temperature {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #0a2a5b7a;
+  border-radius: 100px;
+  max-width: 250px;
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #2f3c4f;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.weather-temperature units {
+  position: relative;
+  font-size: 16px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.weather-temperature .active {
+  color: #051427;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #051427;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.footer {
+  font-size: 12px;
+  font-weight: 300px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #023c93;
+}
